@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.6a098d81.css",
-    "main.js": "/static/js/main.6d317477.js",
-    "static/media/sparkle.png": "/static/media/sparkle.24db6cb360a6d9c37f42.png",
-    "static/media/uniliver.png": "/static/media/uniliver.31e4a82a8192f662857d.png",
-    "static/media/bitbucket.png": "/static/media/bitbucket.ea1945df86227c051363.png",
-    "static/media/riot.png": "/static/media/riot.2b5d986654e1b5d82422.png",
-    "static/media/Logo.jpeg": "/static/media/Logo.e4ae3a32728aa11749a3.jpeg",
-    "static/media/gitlab.png": "/static/media/gitlab.44713399cb9c89438db3.png",
-    "static/media/mattle.png": "/static/media/mattle.b6497852ea824c851cb3.png",
-    "static/media/twilio.png": "/static/media/twilio.7eb5861f5c7dab4251ab.png",
-    "static/media/peloton.png": "/static/media/peloton.0f37aee63f1fbd3e918d.png",
-    "static/media/twitter.png": "/static/media/twitter.8765957790958886d261.png",
-    "static/media/Github.png": "/static/media/Github.69ffd9cd5a846c976177.png",
-    "static/media/google.png": "/static/media/google.b29f36ea5ff9ae56d937.png",
-    "static/media/messagee.png": "/static/media/messagee.91c19ee486b1359bff7f.png",
-    "index.html": "/index.html",
-    "main.6a098d81.css.map": "/static/css/main.6a098d81.css.map",
-    "main.6d317477.js.map": "/static/js/main.6d317477.js.map"
+    "main.css": "./static/css/main.6a098d81.css",
+    "main.js": "./static/js/main.e3e77033.js",
+    "static/media/sparkle.png": "./static/media/sparkle.24db6cb360a6d9c37f42.png",
+    "static/media/uniliver.png": "./static/media/uniliver.31e4a82a8192f662857d.png",
+    "static/media/bitbucket.png": "./static/media/bitbucket.ea1945df86227c051363.png",
+    "static/media/riot.png": "./static/media/riot.2b5d986654e1b5d82422.png",
+    "static/media/Logo.jpeg": "./static/media/Logo.e4ae3a32728aa11749a3.jpeg",
+    "static/media/gitlab.png": "./static/media/gitlab.44713399cb9c89438db3.png",
+    "static/media/mattle.png": "./static/media/mattle.b6497852ea824c851cb3.png",
+    "static/media/twilio.png": "./static/media/twilio.7eb5861f5c7dab4251ab.png",
+    "static/media/peloton.png": "./static/media/peloton.0f37aee63f1fbd3e918d.png",
+    "static/media/twitter.png": "./static/media/twitter.8765957790958886d261.png",
+    "static/media/Github.png": "./static/media/Github.69ffd9cd5a846c976177.png",
+    "static/media/google.png": "./static/media/google.b29f36ea5ff9ae56d937.png",
+    "static/media/messagee.png": "./static/media/messagee.91c19ee486b1359bff7f.png",
+    "index.html": "./index.html",
+    "main.6a098d81.css.map": "./static/css/main.6a098d81.css.map",
+    "main.e3e77033.js.map": "./static/js/main.e3e77033.js.map"
   },
   "entrypoints": [
     "static/css/main.6a098d81.css",
-    "static/js/main.6d317477.js"
+    "static/js/main.e3e77033.js"
   ]
 }
