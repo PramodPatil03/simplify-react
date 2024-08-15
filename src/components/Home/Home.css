@@ -1,0 +1,531 @@
+
+/* This is style for the main Container */
+.mainContainer{
+    padding-top: 60px;
+    min-width: 100%;
+    height: auto;
+    z-index: 0;
+}
+
+/* Applies style for all the h1's */
+h1{
+    font-size: 4em;
+    color: white;
+    text-align: center;
+}   
+
+/* Makes the font black */
+.font-black{
+    margin-top: 30px;
+    font-size: 40px;
+    color: black;
+}
+.font-black + p{
+    font-size: 20px;
+}
+
+/* Gives style for the landing view */
+.backImageHolder{
+    width: 100%;
+    height: 100vh;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    padding-top: 100px;
+    display: flex;
+    background-image: linear-gradient(blue,rgb(107, 107, 246));
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Gives the style for info present in upper view*/
+.infoHolder{
+    width: 50%;
+    p{
+        margin-top: 30px;
+        font-size: 25px;
+        text-align: center;
+        color: white;
+    }
+    
+}
+
+/* Gives style for the video Holder */
+.videoHolder{
+    width: 50%;
+    margin-top: 100px;
+    border-radius: 20px ;
+    iframe{
+        border-radius: 20px ;
+    }
+}
+
+/* Gives style to the div holding buttons */
+.buttonHolder{
+    margin-top: 30px;
+    width: 50%;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    button{
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+    }
+    .deploy{
+        background-color: rgb(80, 180, 238);
+    }
+    .deploy:hover{
+        background-color: rgb(98, 184, 234) ;
+        border: 1px solid white;
+        box-shadow: 0 0 10px blue;
+    }
+    
+    #requestDemo{
+        color: white;
+        border: 2px solid white;
+        background-color: transparent;
+    }
+    #requestDemo:hover{
+        background-color: blue;
+        color: white;
+    }
+}
+
+/* Gives style for the Card holder */
+.cardHolder{
+    margin: 0 auto;
+    margin-top: 500px;
+    width: 80%;
+    gap: 5%;
+
+    height: 300px;
+    display: flex;
+    .card{
+        width: 30%;
+        height: 100%;
+        box-shadow: 0 0 10px gray;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0 20px;
+        .title{
+            height: 25px;
+            width: 50%;
+            line-height: 25px;
+            border-radius: 15px;
+            text-align: center;
+            font-weight: 400;
+            font-size: 1.2em;
+        }
+        #title-1{
+            background-color: lightblue;
+            color: black;
+        }
+        #title-2{
+            background-color: rgb(121, 214, 245);
+            color: black;
+
+        }
+        #title-3{
+            background-color: rgb(241, 227, 95);
+            color: black;
+        }
+        p{
+            font-weight: 600;
+        }
+        h3{
+            font-size: 30px;
+        }
+        img{
+            height: 20px;
+        }
+    }
+}
+.expBtn{
+    display: block;
+    height: 50px;
+    width: 180px;
+    line-height: 50px;
+    font-weight: 600;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background-color: rgb(8, 4, 252);
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 0 5px;
+}
+
+.enterpriseHolder{
+    margin-top: 40px;
+    width: 100%;
+    align-items: center;
+    .logo-holder{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-evenly;
+        img{
+            height: 60px;
+        }
+    }
+}
+
+
+.advertise{
+    margin-top: 60px;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    background-image: linear-gradient(rgb(119, 119, 254),blue);
+    .centerDiv{
+        width: 60%;
+        height: 60%;
+        border: 2px solid white;
+        border-radius: 20px;
+        display: flex;
+        .center-div-left{
+            background-color: rgb(23, 23, 98);
+            width: 50%;  
+            height: 100%;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            padding: 5%;
+            h2{
+                font-size: 2.1em;
+                color: white;
+            }
+            .iterable{
+                display: inline-block;
+            }
+            #changeable{
+                font-size: 2.1em;
+                font-weight: 700;
+                width: 100%;
+                border-right: 5px solid;
+                white-space: nowrap;
+                overflow: hidden;
+                animation: typing 2s infinite,
+                cursor .4s step-end infinite alternate
+            }
+            
+            p{
+                margin-top: 30px;
+                color: white;
+            }
+            .btnLeft{
+                display: inline-block;
+                height: 40px;
+                width: 40%;
+                margin-top: 30px;
+                background-color: transparent;
+                color: white;
+                font-weight: 600;
+                margin-left: 20px;
+                border: 2px solid white;
+                border-radius: 5px;
+
+            }
+            .btnLeft:hover{
+                cursor: pointer;
+                background-color: white;
+                color: black;
+            }
+        }
+        .center-div-right{
+            background-color: rgb(50, 50, 125);
+            border-radius: 0 20px 20px 0;
+            width: 50%;
+            height: 100%;
+            overflow: hidden;
+            overflow-y: scroll;
+            .topRight{
+                position: absolute;
+                width: 29.8%;
+                background-color: rgb(50, 50, 125);
+                border-radius: 0 20px 0 0 ;
+                color: white;
+                ul{
+                    display: flex;
+                    list-style: none;
+                    justify-content: space-evenly;
+                    gap: 5%;
+                    li{
+                        height: 30px;
+                        width: 50px;
+                        img{
+                            height: 30px;
+                            width: 30px;
+                        }
+                        p{width: 100%;
+                            display: none;
+                        }
+                    }
+                    li:hover p{
+
+                        width: 40px;
+                        color: white;
+                        display: block;
+                    }
+                    li:hover a{
+                        width: 50px;
+                        display: flex;
+                    }
+                    
+                }
+            }
+            .contents{
+                display: flex;
+                flex-direction: column;
+                text-overflow: clip;
+                padding: 20px;
+                padding-top: 40px;
+                color: white;
+                text-align: justify;
+                
+            }
+            .contents div{
+                margin: 10px auto;
+
+            }
+            
+            .contents::-webkit-scrollbar{
+                display: none;
+            }
+        }
+        .center-div-right::-webkit-scrollbar{
+            display: none;
+        }
+        
+    }
+    .addContainer{
+        height: 20%;
+        width: 50%;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            p{
+                font-size: 1.1em;
+                color: white;
+            }
+        }
+    }
+}
+
+
+
+.customerStory{
+    width: 90%;
+    height: 300px;  
+    display: flex;
+    margin: 0 auto;
+    margin-top: 120px;
+    .customer-story-left{
+        width: 40%;
+        height: 100%;
+        border-radius: 20px 0 0 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: blue;
+        padding: 40px;
+        .customer-story-left-logo{
+            display: flex;
+            img{
+                height: 60px;
+            }
+            h1{
+                margin: 0;
+            }
+        }
+        .customer-story-left-li{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            li{
+                width: 100%;
+                line-height: 40px;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                img{
+                    height: 25px;
+                }
+                p{
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+    .customer-story-right{
+        height: 100%;
+        width: 60%;
+        border-radius: 0 20px 20px 0;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        #header{
+            width: 150px;
+            text-align: center;
+            display: inline-block;
+            background-color: rgb(160, 240, 240);
+            color: blue;
+            padding: 5px;
+            border-radius: 20px;
+        }
+        #opinion{
+            font-size: 28px;
+            font-weight: 500;
+        }
+        a{
+            margin-top: 20px;
+            img{
+                height: 22px;
+            }
+        }
+    }
+}@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+}
+@keyframes typing {
+    from{
+        width: 0%;
+    }
+}
+
+@media (max-width:600px) {
+    .mainContainer{
+        min-width: 100vh;
+    }
+    
+    h1{
+        width: 100%;
+        font-size: 3em;
+    }
+    .infoHolder{
+        width: 100%;
+    }
+    .buttonHolder{
+        width: 100%;
+        height: 150px;
+        flex-direction: column;
+        gap: 30px;
+        button{
+            display: block;
+            width: 50%;
+            height: 80px;
+            font-size: 2em;
+        }
+    }
+    .videoHolder{
+        width: 90%;
+    }
+    .cardHolder{
+        height: 1000px;
+        margin-top: 350px;
+        flex-direction: column;
+        align-items: center;
+        .card{
+            width: 90%;
+            h3{
+                font-size: 3em;
+            }
+            p{
+                font-size: 1.5em;
+            }
+
+        }
+    }
+    .expBtn{
+        font-size: 1.5em;
+        width: 50%;
+    }
+    .logo-holder{
+        gap: 20%;
+        flex-wrap: wrap;
+        height: 200px;
+        img{
+            margin-top: 30px;
+        }
+    }
+    .advertise{
+        width: 100%;
+        height: 100%;
+    }
+    .centerDiv{
+        height: 60%;
+        width: 100%;
+        margin-top: 70px;
+        flex-direction: column;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+
+        .center-div-left{
+            min-width: 100%;
+            height: 50%;
+            border-radius: 0 20px 20px 0;
+        }
+        .center-div-right{
+            display: none;
+        }
+    }
+    .addContainer{
+        flex-direction: column;
+        gap: 30px;
+        padding-bottom: 30px;
+        div{
+            p{
+                font-size: 20px;
+            }
+        }
+    }
+    .customerStory{
+        min-width: 100%;
+        min-height: 1000px;
+        flex-direction: column;
+        .customer-story-left{
+            width: 90%;
+            height: 100%;
+            margin: 0 auto;
+            color: white;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 0px;
+        }
+        .customer-story-left-li{
+            height: 100%;
+            font-size: 1.5em;
+        }
+        .customer-story-right{
+            width: 90%;
+            margin: 0 auto;
+            #opinion{
+                font-size: 2em;
+            }
+            #content{
+                font-size: 1.5em;
+            }
+        }
+    }
+    .font-black{
+        color: white;
+    }
+    #mobile-black{
+        color: black;
+    }
+}

@@ -1,0 +1,150 @@
+.footer-body{
+    min-width: 100vh;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .navbar{
+        width: 80%;
+        height: 40px;
+        ul{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            list-style: none;
+            gap: 20px;
+            li{
+                height: 100%;
+                img{
+                    height: 30px;
+                }
+            }
+            li:first-child{
+                margin-right: auto;
+            }
+        }
+    }
+}
+
+#logo{
+    height: 40px;
+}
+.container{
+    width: 90%;
+    display: flex;
+    justify-content: space-around   ;
+    ul{
+        list-style: none;
+        li{
+            line-height: 40px;
+        }
+    }
+}
+
+.feedback{
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 40px;
+    p{
+        font-size: 1em;
+        font-weight: 500;
+    }
+    .inputContainer{
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: flex-start;
+        input{
+            height: 40px;
+            width:100%;
+            border-radius: 10px;
+        }
+        button{
+            margin-left: 20px;
+            background-color: rgb(69, 243, 234);
+            height: 40px;
+            width: 30%;
+            border: none;
+            border-radius: 10px;
+            font-size: 1em;
+            font-weight: 700;
+        }
+    }
+}
+
+.final{
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.final ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+.final ul li{
+    margin-left: 20px;
+    font-weight: 200;
+}
+.final ul li:last-child{
+    margin-right: 20px;
+    margin-left: auto;
+    
+}
+.drop-container{
+    display: none;
+}
+
+@media (max-width:600px) {
+    .drop-container{
+        display: flex;
+        width: 100%;
+    }
+    .fullView{
+        display: none;
+    }
+    .drop-container ul{
+        width: 100%;
+        list-style: none;
+        font-size: 1.5em;
+        
+    }
+    .drop-container ul li{
+        height: 60px;
+        background-color: rgb(245, 242, 238);
+        margin-top: 20px;
+        padding-left: 20px;
+        line-height: 60px;
+        display: flex;
+        flex-direction: column;
+    }
+    .drop-container ul li div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .drop-container ul li div img{
+        height: 30px;
+        width: 30px;
+        margin-right: 20px;
+    }
+    .hidden-drop{
+        display: none;
+        width: 100%;
+        background-color: rgb(245, 242, 238);
+        z-index: 999;
+    }
+    .hidden-drop li{
+        width: 100%;
+        font-size: 0.6em;
+    }
+    
+}

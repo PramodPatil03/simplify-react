@@ -1,0 +1,368 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Style for entire Nav body in Desktop view */
+.nav-body{
+    position: absolute;
+    font-weight: 700;
+    background-color: rgba(240, 248, 255, 0.817);
+    /* opacity: 0.8; */
+    width: 100%;
+    position: fixed;
+    height:60px;
+    display: flex;
+    z-index: 999;
+    justify-content: space-between;
+    .nav{
+        height: 100%;
+        display: flex;
+        list-style: none;
+        /* gap: 5%; */
+        li{
+            width:100px;
+            height: 100%;
+            line-height: 60px;
+        }
+    }
+
+    .paraContent{
+        line-height: 20px;
+        font-size: 15px;
+        overflow: hidden;
+        overflow-y:scroll ;
+    }
+
+    
+    /* Style for the hidden nav which displays after hovering on navbar element */
+    .hiddenNav{
+        position: absolute;
+        visibility: hidden;
+        background-color: rgb(206, 206, 206);
+        height: 300px;
+        width: 600px;
+        z-index: 999;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px 0 20px 30px;
+        /* transition: 0.3s ease-in; */
+        #hidden-nav-left{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: 50%;   
+            list-style: none;        
+        }
+        #hidden-nav-left li{
+            width: 100%;
+            height: 20px;
+            text-align: left;
+        }
+        #hidden-nav-left li a{
+            width: 100%;
+        }
+        #hidden-nav-right{
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+        #hidden-nav-right .inner-div-1{
+            width: 100%;
+            height: 30px;
+            list-style: none;
+        }
+        #hidden-nav-right .inner-div-1 li{
+            width: 100%;
+            text-align: left;
+        }
+        #hidden-nav-right .inner-div-2{
+            height: 100%;
+            display: flex;
+            /* justify-content: flex-start; */
+        }
+        #hidden-nav-right .inner-div-2 ul{
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            justify-content: space-evenly;
+            list-style: none;
+        
+        }
+        #hidden-nav-right ul li{
+            height: 20px;
+        }
+        
+    }
+
+    /* keeps displaying the hidden div after hovering over nav itself */
+    .hiddenNav:hover{
+        display: flex;
+    }
+    
+
+    /* Displays the hidden div after hovering over nav element */
+    
+    .platformHolder:hover + #platform{
+        visibility: visible;
+    }
+    .platformHolder:hover + #solutions{
+        visibility: visible;
+    }
+    
+    .platformHolder:hover + #start-building{
+        visibility: visible;
+    }
+    /* keeps displaying the hidden div after hovering over nav itself */
+    
+    #platform:hover{
+        visibility: visible;
+    }
+    /* keeps displaying the hidden div after hovering over nav itself */
+
+    #solutions:hover{
+        visibility: visible;
+    }
+
+    /* keeps displaying the hidden div after hovering over nav itself */
+    #start-building:hover{
+        visibility: visible;
+    }
+    .nav-left{
+        width: 70%;
+        justify-content: center;
+        gap: 5px;
+        .nav-left-items{
+            width: auto;
+            text-align: center;
+            a{
+                width: 100%;
+            }
+        }
+        
+
+        
+    }
+    .nav-right{
+        width: 30%;
+        justify-content: flex-end;
+        margin-right: 5%;
+        .nav-right-items{
+            display: flex;
+            .anchorTag{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            img{
+                width: 40px;
+                height: 40px;
+                padding: 5px;
+                margin-top: 10px;
+            }
+            img:hover{
+                border: 2px solid blue;
+                border-radius: 5px;
+            }
+            
+        }
+        #signInBtn{
+            height: 40px;
+            width: 80px;
+            margin: auto 0;
+            background-color: rgb(80, 80, 245);
+            border-radius: 10px;
+            padding: 5px;
+            color: white;
+            opacity: 1;
+            font-weight: 700;
+        }
+        #signInBtn:hover{
+            background-color: blue;
+            
+        }
+    }
+}
+
+/* Style for each anchor tag bearing class anchorTag */
+.anchorTag{
+    color: black;
+    height: 40px;
+    /* width: 100%; */
+    display: flex;
+    padding: 0 3px;
+    font-weight: 700px;
+    align-items: center;
+    margin: 10px 0;
+    img{
+        height: 30px;
+        width: 30px;
+    }
+}
+
+.anchorTag:hover{
+    border-radius: 10px;
+    border-spacing: 0cap;
+    outline: 2px solid blue;
+    outline-offset: -2px;
+}
+
+.logoHolder{
+    width: auto;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    img{
+        width:100px;
+        height: 60px;
+    }
+}
+/* We hide the mobile navbar in desktop view */
+.mobileNav{
+    display: none;
+    position: absolute;
+}
+.hamburger{
+    background-color: black;
+    height: 40px;
+    margin-top: 10px;
+}
+/* This is style for  hidden sidebar */
+#sidebar{
+    display: none;
+    background-color: rgb(255, 254, 254);
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    width: 50%;
+    height: 100vh;
+    list-style: none;
+    img{
+        margin-top:10%;
+        width: 40px;
+        height: 40px;
+        float: right;
+        margin-right: 10%;
+    }
+    
+    li{
+        height: 50px;
+        width: 100%;
+        line-height: 100px;
+        padding-left: 20px;
+        font-size: 1.5em;
+
+    }
+    
+}
+
+#searchContainer{
+    width: 90%;
+    height: 80vh;
+    position: fixed;
+    background-color: white;
+    z-index: 999;
+    top: 10vh;
+    left: 5%;
+    display: none;
+    flex-direction: column ;
+    align-items: center ;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.searchContainer:hover{
+    display: flex;
+}
+#searchContainer input{
+    width: 90%;
+    height: 40px;
+    padding-left: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.search-container-inner-div{
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+    height: 80%;
+}
+.search-container-inner-div-left{
+    width: 30%;
+    height: 100%;
+}
+.search-container-inner-div-left ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    /* line-height: 30px; */
+    list-style: none;
+}
+.search-container-inner-div-left ul li{
+    height: 20px;
+    line-height: 0px;
+    a{
+        padding-left: 20px;
+        width: 500px ;
+        line-height: 30px;
+        margin: 0;
+        font-weight: 300;
+    }
+}
+
+.search-container-inner-div-right{
+    width: 40%; 
+    height: 70%;
+    margin-top: 40px;
+    background-color: rgb(91, 91, 253);
+    border-radius: 10px;
+    padding: 20px ;
+    button{
+        background-color: white;
+        height: 40px;
+        width: 80%;
+        margin-left: 10%;
+        border-radius: 10px;
+        font-size: 1.3em;
+        font-weight: 700;
+        color: rgb(91, 91, 253) ;
+    }
+    button:hover{
+        background-color: rgb(91, 91, 253);
+        color: white;
+    }
+}
+
+@media (max-width:600px) {
+    
+    /* Hides the desktop navbar in Mobile view */
+    .fullNav{
+        display: none;
+    }
+
+    /* Displays the mobile nav in mobile view */
+    .mobileNav{
+        min-width: 100vh;
+        display: flex;
+    }
+    .mobileNav li:first-child{
+        margin-right: auto;
+        margin-left: 5%;
+    }
+    .nav{
+        width: 100%;
+        justify-content: flex-end;
+    }
+    /* Keeps the sidebar hidden in mobile view at initial */
+    .sidebar{
+        display: none;
+    }
+    
+}
