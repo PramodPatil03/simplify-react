@@ -16,8 +16,8 @@
     "static/media/google.png": "/github.io/static/media/google.b29f36ea5ff9ae56d937.png",
     "static/media/messagee.png": "/github.io/static/media/messagee.91c19ee486b1359bff7f.png",
     "index.html": "/github.io/index.html",
-    "main.4e23bb6b.css.map": "/github.io/static/css/main.4e23bb6b.css.map",
-    "main.274c5486.js.map": "/github.io/static/js/main.274c5486.js.map"
+    "main.4e23bb6b.css.map": "/static/css/main.4e23bb6b.css.map",
+    "main.274c5486.js.map": "/static/js/main.274c5486.js.map"
   },
   "entrypoints": [
     "static/css/main.4e23bb6b.css",
