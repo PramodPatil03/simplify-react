@@ -50,7 +50,7 @@ function Home() {
                     </div>
                     <div className="infoHolder">
                         <h1 className='font-black'>Simplify Composable Web Platform</h1>
-                        <p>Streamlined orchestration, simplified and unified workflows, and real-time updates across infrastructure, workflows, websites and teams — all supported by Enterprise-grade security, services, and a world-class partner ecosystem. </p>
+                        <p id='font-black'>Streamlined orchestration, simplified and unified workflows, and real-time updates across infrastructure, workflows, websites and teams — all supported by Enterprise-grade security, services, and a world-class partner ecosystem. </p>
                     </div>
                 </div>
 
