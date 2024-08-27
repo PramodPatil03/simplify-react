@@ -342,6 +342,11 @@
     }
 }
 
+#search-img{
+    width: 40px;
+    height: 40px;
+}
+
 @media (max-width:600px) {
     
     /* Hides the desktop navbar in Mobile view */
