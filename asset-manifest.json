@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.6a098d81.css",
+    "main.css": "./static/css/main.c460d608.css",
     "main.js": "./static/js/main.e3e77033.js",
     "static/media/sparkle.png": "./static/media/sparkle.24db6cb360a6d9c37f42.png",
     "static/media/uniliver.png": "./static/media/uniliver.31e4a82a8192f662857d.png",
@@ -16,11 +16,11 @@
     "static/media/google.png": "./static/media/google.b29f36ea5ff9ae56d937.png",
     "static/media/messagee.png": "./static/media/messagee.91c19ee486b1359bff7f.png",
     "index.html": "./index.html",
-    "main.6a098d81.css.map": "./static/css/main.6a098d81.css.map",
+    "main.c460d608.css.map": "./static/css/main.c460d608.css.map",
     "main.e3e77033.js.map": "./static/js/main.e3e77033.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a098d81.css",
+    "static/css/main.c460d608.css",
     "static/js/main.e3e77033.js"
   ]
 }
