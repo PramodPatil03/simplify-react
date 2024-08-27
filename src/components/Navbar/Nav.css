@@ -164,6 +164,7 @@
                 margin-top: 10px;
             }
             img:hover{
+                cursor: pointer;
                 border: 2px solid blue;
                 border-radius: 5px;
             }
@@ -335,6 +336,7 @@
         color: rgb(91, 91, 253) ;
     }
     button:hover{
+        cursor: pointer;
         background-color: rgb(91, 91, 253);
         color: white;
     }
